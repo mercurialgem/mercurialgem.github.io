@@ -1,0 +1,335 @@
+/* Ashley's CSS*/
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  color: #696D7D;
+}
+
+
+
+.apflexparent {
+  display: flex;
+  margin-top: 6%;
+  width: 85%;
+
+}
+
+.apbuy {
+  margin: 2%;
+  flex: 1;
+  background-color: #696D7D;
+  color: #ffffff;
+  text-align: center;
+  padding: 5%;
+}
+.apshop {
+  background-image: url("images/cilantromaybe.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  padding-top: 10%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  color: #696D7D;
+
+}
+.apshop h2 {
+  text-transform: capitalize;
+}
+.apaloevera{
+  width: 80%;
+  height: 68%;
+}
+.apcactus {
+  width: 85%;
+  height: 80%:
+}
+.apsnake {
+  width: 80%;
+  height: 65%;
+}
+.mailing {
+    padding-bottom: 5%;
+    justify-content: space-around;
+}
+.mailing input {
+    display:block;
+    width: 100%;
+    
+}
+.mailing div{
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+    margin: auto;
+    text-align: center;
+}
+.apbutton {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #8D9F87;
+    padding: .5%;
+    border-radius: 12%;
+}
+
+/* Ashley's CSS -end */
+
+ /* Monica's CSS*/
+
+
+.nav {
+    
+        background-color:#6F9283;
+        color:#ffffff;
+        margin:0px;
+    
+}
+
+.nav a {
+    
+        text-decoration:none;
+        padding-left:20px;
+        padding-right:20px;
+        padding-top:20px;
+        text-align:center;
+        color:#ffffff;
+        font-size:35px;
+
+}
+
+
+ul {
+    
+        display: flex;
+        list-style-type:none;
+        padding-left:30px;
+
+}
+
+li {
+    
+        font-size:20px;
+        margin-right:20px;
+        padding-top: 15px;
+        
+
+}
+
+.logo img {
+    
+        width:60px;
+}
+
+
+.main {
+    
+        padding:1%;
+        display:flex;
+       
+
+}
+
+.plantimage {
+    
+    
+        background-color: #696D7D;
+        
+}
+
+.plantimage, .text {
+    
+        text-align:center;
+        flex:1;
+       
+}
+
+.aloeimage, .snakeplantimage, .cactusimage {
+    
+        width:50%;
+        margin-top:6%;
+        margin-bottom:2%;
+
+}
+
+.text {
+    
+        padding:1%;
+        display:flex;
+        flex-direction: column;
+       
+        
+        
+       
+}
+
+.aloetext, .cactustext, .bambootext {
+    
+        flex:1;
+        
+}
+
+
+.buy    {
+    
+        flex:1;
+    
+}
+
+h1 {
+    
+    
+        text-align: center;
+        margin-top:0px;
+        margin-top:0px;
+        color:#ffffff;
+}
+
+
+
+.button {
+    
+        background-color:#8D9F87;
+        padding:10px 2%;
+        font-size: 25px;
+        border-radius:7%;
+        margin-top:20px;
+        margin-bottom:0px;
+               
+}
+
+.button a {
+    
+        text-decoration:none;
+        color:#ffffff;
+}
+
+
+
+.others {
+        
+        display:flex;
+        justify-content: center;
+}
+
+.left {
+    
+        margin: 40px; 
+}
+
+.right {
+    
+        margin: 40px;
+    
+}
+/* Monica's CSS - end */
+
+/* Garian's CSS*/
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    
+}
+
+
+
+
+ul {
+    display:flex;
+    list-style-type: none;
+    padding-left: 30px;
+    
+}
+
+li {
+    
+    margin-right: 20px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.plantbenefit p {
+    
+    color: #ffffff;
+}
+
+.aloevera, .snakeplant, .cactus h2 {
+    
+    color:white;
+}
+
+
+
+
+.plantbox{
+    padding:2%;
+    margin: 2%;
+    background-image: url(images/plantbox.jpg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+h1{
+    font-size:40px;
+}
+
+.plantbenefit{
+    font-size: 25px;
+}
+
+
+
+.plantfooter{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+     
+}
+
+
+.aloevera{
+    flex: 1;
+    border: 1px solid gray;
+    background-color: #696D7D;
+    padding: 2% 5%;
+    text-align: center;
+    margin: 2%;
+   
+}
+
+
+.snakeplant{
+    flex: 1;
+    border: 1px solid gray;
+    background-color: #696D7D;
+    padding: 2% 5%;
+    text-align: center;
+    margin: 2%;
+    
+}
+
+.cactus{
+    flex: 1;
+    background-color: #696D7D;
+    padding: 2% 5%;
+    text-align: center;
+    margin: 2%;
+}
+
+.button {
+    
+        background-color:#8D9F87;
+        color:#ffffff;
+        text-decoration:none;
+        padding:10px 3%;
+        font-size: 25px;
+        border-radius:7%;
+        margin-top:20px;
+        margin-bottom:0px;
+               
+}
+
+/* Garian's  CSS -end*/
+
+
+
+
