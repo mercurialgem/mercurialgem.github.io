@@ -1,0 +1,390 @@
+body{
+	font-family: 'Noto Sans KR', sans-serif;
+    margin-left: 50px;
+}
+
+.headparent{
+	border: 1px solid green;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 50px;
+	font-size: 30px;
+	display: flex;
+    text-align: right
+	
+}
+
+.headparent h1{
+    font-size: 40px;
+    color: #FF6542;
+    text-align: center;
+}
+
+.title h3{
+    font-size: 15px;
+    text-align: justify;
+    color: #88498F;
+}
+
+
+
+
+.buttonparent{
+	display: flex;	
+}
+
+.title{
+	flex:1;
+ 
+	
+}
+
+.navbar{
+    
+    padding-top: 100px;
+   
+   
+}
+
+/****** NAV********/
+
+.navbar li a:hover {
+	background-color: #4C6085;
+}
+
+.navbar li{
+	display: inline;
+	text-decoration-style: none	;
+}
+
+.navbar ul{
+
+    
+}
+.navbar a{
+	text-decoration: none;
+	padding-top: 2px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right:4px;
+    border: 1px solid #000;
+	
+    font-size: 25px;
+   
+
+}
+
+
+/**********body *******/
+
+.body{
+	display:flex;
+	margin-top: 60px;
+	margin-right: 5%;
+}
+
+.bodytext{
+	border-top: 2px solid blue;
+	text-align:inherit;
+	line-height: 1.8;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 40px;
+	margin-top: 10px;		
+}
+
+.button{
+flex:1;
+  
+  border: none;
+  color: #39A0ED;
+  padding-left: 20px;
+	padding-right: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+.bodytext p{
+	font-size: 20px;
+	
+}
+
+.bodyimage img{
+
+
+}
+
+
+
+
+/**********body *******/
+
+.flexparent{
+	display: flex;
+	flex-direction: row;
+	margin-left: 5%;
+}
+
+.flex1 img{
+	
+}
+
+.flex1{
+	flex:1;
+	border: 1px solid green;
+	margin-left: 10%;		
+}
+
+
+
+.flex2{
+	flex:1;
+	border: 1px solid blue;
+	margin-right: 60%;
+	margin-left: 10%; 
+	
+}
+
+.flex2 img{
+
+}
+
+
+
+.button a{
+  border: 1px solid red;
+  color: #BA1200;
+    background-color: #C8E0F4;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+
+
+
+.flexparent{
+display:flex;
+margin-right: 5%;
+margin-left: 5%;
+	
+	
+}
+
+
+.flexparent h2{
+	font-size: 20px;
+	color: #29339B;
+	
+}
+
+.flexparent h3{
+	color: #29339B;
+}
+
+
+
+.foot1{
+	flex:1;
+	border:1px solid blue;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	background-image: url(images/americangoldfinch.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: left;
+    color: #BA1200;
+
+    
+	
+}
+
+.foot1a{
+	flex:1;
+	border:1px solid blue;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	background-image: url(images/brownorangeorchid.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: left;
+    color: #BA1200;
+
+
+}
+
+
+.foot2{
+	flex:1;
+	border:1px solid blue;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	background-image: url(images/orangepetal.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: left;
+    color: #BA1200;
+}
+
+.foot2a{
+	flex:1;
+	border:1px solid blue;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	background-image: url(images/pinkpurplelilac.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: left;
+     color: #BA1200;
+}
+
+
+	
+/****************************FLOWER PAGE*************/
+
+
+.flowerheroimage {
+  background-image: url(images/flowervase.jpg);
+  background-color: #BA1200;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.flowerbody{
+	border: 1px solid blue;
+	
+}
+
+.flowerparent{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.parentflex{
+	display: flex;
+	flex-direction: row;
+	flex:1;
+	margin-top: 40px;
+}
+
+.birdimage img{
+
+}
+
+/********************FLower page end PAGE****************/
+
+	
+/****************************BIRd PAGE*************/
+
+
+.birdherotext1{
+   border:1px solid #9DD1F1;
+    background-image:url(images/binoculars.jpg);
+    height: 350px;
+    background-size: contain;
+    width: 250px;
+    background-repeat: no-repeat;
+    margin-right: 10%;
+    font-size: 10px;
+      background-position: bottom;
+   
+    
+}
+
+.birdherotext2{
+       border:1px solid #9DD1F1;
+    background-image: url(images/citydaffodil.JPG);
+    height: 350px;
+    background-size: contain;
+    width: 250px;
+    background-repeat: no-repeat;
+    margin-right: 10%;
+     font-size: 10px;
+    background-position: bottom;
+   
+    
+}
+
+.birdherotext3{
+       border:1px solid #9DD1F1;
+    background-image: url(images/lookingbird.jpg);
+    height: 350px;
+    background-size: contain;
+    width: 250px;
+    background-repeat: no-repeat;
+    margin-right: 10%;
+     font-size: 10px;
+      background-position: bottom;
+   
+   
+    
+}
+
+.birdheroparent{
+    display: flex;
+  flex-direction: row;
+    border: 1px solid black;
+}
+
+    
+.birdgg{
+	display: flex;
+	flex-direction: row;
+	flex:1;
+	margin-top: 40px;
+    
+}
+ 
+}
+
+.birdbody{
+	border: 1px solid blue;
+	
+}
+
+.birdparent1{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid green;
+    font-size: 10px;
+    margin-left: 5%;
+}
+.birdparent2{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid green;
+    font-size: 10px;
+    margin-left: 5%;
+}
+
+.birdparent3{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid green;
+    font-size: 10px;
+      margin-left: 5%;
+}
+
+
+.birdparent img{
+	max-width: 100%;
+}
